@@ -1,0 +1,95 @@
+/*Style for Main app */
+
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    background-image: linear-gradient(to right, #1dd535, #00d383, #00cdb8, #00c4d4, #3fb7d8);
+}
+
+html,body {    
+    width: 100%;
+    margin: 0 auto;
+    font-family: Yeon Sung, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold ;
+    color: firebrick;
+    text-shadow: gold 1px 1px 1px;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#inputField {
+    width: 70%;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    font-family: Yeon Sung;
+    width: 25%;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.toDos {
+    margin-top: 25px;
+   
+}
+
+/*Style for each new task*/
+
+.paragraph-styling{
+    margin: 5px auto ;
+    position: relative;
+    max-width: 95%;
+    cursor: pointer;
+    font-size: 26px;
+    background: rgb(31, 168, 150);
+    vertical-align: middle;
+}
+
+.paragraph-styling:hover{
+    background: rgb(62, 86, 167);
+}
+
+/* Style we had for done task*/
+
+.line {
+    text-decoration: line-through;
+    font-size: 22px;
+    opacity: 0.5 ;
+}
+
+/* style we had for each new close button*/
+
+.close {
+    right: 0;
+    top: 0;
+    padding: 0px 20px 0px 20px;
+}
+ 
+.close:hover {    
+    color: white;
+}
+
+ 
